@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Approval_Status__c</fullName>
+    <label>Jóváhagyási státusz</label>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Betöltve</fullName>
+                <default>true</default>
+                <label>Betöltve</label>
+            </value>
+            <value>
+                <fullName>Területvezetői jóváhagyásra vár</fullName>
+                <default>false</default>
+                <label>Területvezetői jóváhagyásra vár</label>
+            </value>
+            <value>
+                <fullName>Pénzügyi igazgatói jóváhagyásra vár</fullName>
+                <default>false</default>
+                <label>Pénzügyi igazgatói jóváhagyásra vár</label>
+            </value>
+            <value>
+                <fullName>Jóváhagyva</fullName>
+                <default>false</default>
+                <label>Jóváhagyva</label>
+            </value>
+            <value>
+                <fullName>Elutasítva</fullName>
+                <default>false</default>
+                <label>Elutasítva</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

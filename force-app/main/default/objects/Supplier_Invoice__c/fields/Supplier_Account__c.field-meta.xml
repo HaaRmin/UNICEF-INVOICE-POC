@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Supplier_Account__c</fullName>
+    <label>Beszállító (Account)</label>
+    <type>Lookup</type>
+    <referenceTo>Account</referenceTo>
+    <relationshipName>Supplier_Invoices</relationshipName>
+    <relationshipLabel>Beszállítói számlák</relationshipLabel>
+    <deleteConstraint>SetNull</deleteConstraint>
+</CustomField>

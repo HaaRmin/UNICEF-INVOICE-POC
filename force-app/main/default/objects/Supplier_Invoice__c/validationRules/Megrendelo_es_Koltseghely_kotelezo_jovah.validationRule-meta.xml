@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Megrendelo_es_Koltseghely_kotelezo_jovah</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+  ISPICKVAL(Approval_Status__c, &quot;Pénzügyi igazgatói jóváhagyásra vár&quot;),
+  OR(
+    ISBLANK(Cost_Center__c),
+    ISBLANK(TEXT(Orderer__c))
+  )
+)</errorConditionFormula>
+    <errorMessage>Jóváhagyás előtt kötelező kitölteni a Megrendelőt és a Költséghelyet.</errorMessage>
+</ValidationRule>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Orderer__c</fullName>
+    <label>Megrendelő</label>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Nagy Anna</fullName>
+                <default>false</default>
+                <label>Nagy Anna</label>
+            </value>
+            <value>
+                <fullName>Kiss Péter</fullName>
+                <default>false</default>
+                <label>Kiss Péter</label>
+            </value>
+            <value>
+                <fullName>Szabó Júlia</fullName>
+                <default>false</default>
+                <label>Szabó Júlia</label>
+            </value>
+            <value>
+                <fullName>Tóth Gábor</fullName>
+                <default>false</default>
+                <label>Tóth Gábor</label>
+            </value>
+            <value>
+                <fullName>Egyéb</fullName>
+                <default>false</default>
+                <label>Egyéb</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

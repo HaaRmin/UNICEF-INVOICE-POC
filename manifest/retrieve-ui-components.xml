@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <types>
+        <members>Supplier_Invoice__c.UNICEF_Besz_ll_t_i_Sz_mla_J_v_hagy_s</members>
+        <name>ApprovalProcess</name>
+    </types>
+    <types>
+        <members>Sz_mla_ter_let_j_v_hagy_kit_lt_s</members>
+        <name>Flow</name>
+    </types>
+    <types>
+        <members>Supplier_Invoice__c.Megrendelo_es_Koltseghely_kotelezo_jovah</members>
+        <name>ValidationRule</name>
+    </types>
+    <types>
+        <members>Supplier_Invoice__c</members>
+        <name>Workflow</name>
+    </types>
+    <version>60.0</version>
+</Package>

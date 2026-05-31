@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldUpdates>
+        <fullName>Elutas_tva</fullName>
+        <field>Approval_Status__c</field>
+        <literalValue>Elutasítva</literalValue>
+        <name>Elutasítva</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>J_v_hagyva</fullName>
+        <field>Approval_Status__c</field>
+        <literalValue>Jóváhagyva</literalValue>
+        <name>Jóváhagyva</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Set_Status_to_TVJV</fullName>
+        <field>Approval_Status__c</field>
+        <literalValue>Területvezetői jóváhagyásra vár</literalValue>
+        <name>Set Status to TVJV</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Statusz_Penzugyi_igazgatoi_jovahagyasr</fullName>
+        <field>Approval_Status__c</field>
+        <literalValue>Pénzügyi igazgatói jóváhagyásra vár</literalValue>
+        <name>Statusz - Penzugyi igazgatoi jovahagyasr</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+</Workflow>
